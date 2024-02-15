@@ -57,13 +57,14 @@ if st.button("Submit"):
         Use the following response format, keeping the section headings as-is, and provide
         your feedback. Use bullet points for each response. The provided examples are for
         illustration purposes only and should not be repeated.
+        if user enters text other than code then, then provide the response as Input is out of context. Please provide valid code.
 
         **Programming Language used (example)**:
         - Specify the programming language used in the provided code snippet so that the model can identify the language for more accurate feedback.
 
         **Syntax and logical errors (example)**:
-        - Incorrect indentation on line 12
-        - Missing closing parenthesis on line 23
+        - Identify and correct the syntax error(s) in the code. Describe what each error is and why it occurs.
+        - Identify and correct the logical error(s) in the code. Explain why the error(s) lead to incorrect results and provide the corrected version of the code.
 
         **Code refactoring and quality (example)**:
         - Replace multiple if-else statements with a switch case for readability
