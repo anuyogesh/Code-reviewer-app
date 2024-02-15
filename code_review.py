@@ -58,6 +58,9 @@ if st.button("Submit"):
         your feedback. Use bullet points for each response. The provided examples are for
         illustration purposes only and should not be repeated.
 
+        **Programming Language used (example)**:
+        - Specify the programming language used in the provided code snippet so that the model can identify the language for more accurate feedback.
+
         **Syntax and logical errors (example)**:
         - Incorrect indentation on line 12
         - Missing closing parenthesis on line 23
