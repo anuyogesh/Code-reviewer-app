@@ -30,8 +30,8 @@ safety_settings = [
 ]
 
 # Set Google API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyC6gNsbu9viro7Vbcl5p7mpXkVlifkiMk0"
-genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+
 
 model = genai.GenerativeModel(model_name="gemini-pro",
                               generation_config=generation_config,
