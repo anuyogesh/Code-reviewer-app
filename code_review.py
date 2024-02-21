@@ -62,9 +62,14 @@ if st.button("Submit"):
         - Specify the programming language used in the provided code snippet so that the model can identify the language for more accurate feedback.
 
         **Syntax and logical errors (example)**:
+<<<<<<< HEAD
         - Identify and correct any syntax errors in the code provided. Syntax errors are mistakes in the structure of the code that prevent it from being executed properly.
         - Identify and correct any logical errors in the code provided. Logical errors occur when the code runs without throwing errors, but it produces incorrect results due to flawed logic or incorrect assumptions.
         - Describe what each error is and why it occurs.
+=======
+        - Identify and correct the syntax error(s) in the code. Describe what each error is and why it occurs.
+        - Identify and correct the logical error(s) in the code. Explain why the error(s) lead to incorrect results and provide the corrected version of the code.
+>>>>>>> f3e061aded2a4255c909df5ccaa6119bba607cc1
 
         **Code refactoring and quality (example)**:
         - Replace multiple if-else statements with a switch case for readability
